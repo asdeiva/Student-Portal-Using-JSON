@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Portal</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <!-- NavBar Section -->
+    <div class="navBar">
+        <h3 id="navHeading">Student Portal</h3>
+    </div>
+
+    <!-- SearchBar Section -->
+    <div class="searchBar">
+        <input type="text" placeholder="Search" id="searchInput" />
+        <input type="button" value="Search" id="searchBtn" />
+    </div>
+
+    <!-- SearchButtons -->
+    <div class="sortBtns">
+        <input class="sortBtn" type="button" value="Sort A > Z" id="sortAZ" />
+        <input type="button" class="sortBtn" value="Sort Z > A" id="sortZA" />
+        <input class="sortBtn" type="button" value="Sort By Marks" id="sortByMarks" />
+        <input type="button" class="sortBtn" value="Sort By Passing" class="sortBtn" id="sortByPass" />
+        <input type="button" class="sortBtn" value="Sort By Class" id="sortByClass" />
+        <input class="sortBtn" type="button" value="Sort By Gender" id="sortByGender" />
+    </div>
+    
+    <!-- TableContent -->
+    <div>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Gender</th>
+                    <th>Class</th>
+                    <th>Marks</th>
+                    <th>Passing</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody id="data-output"></tbody>
+        </table>
+    </div>
+
+    <!-- Table 2 For Gender Filter -->
+    <div>
+        <table class="table hidden" id="table2">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Gender</th>
+                    <th>Class</th>
+                    <th>Marks</th>
+                    <th>Passing</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody id="data-output2"></tbody>
+        </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

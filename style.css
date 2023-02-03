@@ -1,0 +1,66 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.navBar {
+  width: 100%;
+}
+#navHeading {
+  margin: 0px;
+  padding: 10px;
+  background-color: black;
+  color: white;
+}
+
+.searchBar {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+#searchInput {
+  padding: 6px;
+  margin-right: 10px;
+  width: 85vw;
+}
+#searchBtn {
+  width: 120px;
+  height: 30px;
+  background-color: black;
+  color: white;
+}
+
+.sortBtns {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.sortBtn {
+  background-color: black;
+  color: white;
+  margin: 15px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.table {
+  padding: 10px;
+  width: 100%;
+  border-spacing: 0px;
+}
+.hidden {
+  display: none;
+}
+table tr td {
+  border: solid black 1px;
+  padding: 5px;
+}
+table tr th {
+  border: solid black 1px;
+  padding: 5px;
+}
+
+#filter_data {
+  padding: 50px;
+}
